@@ -30,7 +30,7 @@
   <!-- 1. Use appropriate css classes on nav element. -->
   <!-- 2. Add child elements as required. -->
 
-   <nav class="navbar navbar-expand-sm navbar-light bg-light">
+   <nav class="navbar navbar-expand-sm navbar-light bg-light p-3">
     <div class="container-fluid">
      <h3>Qtrip</h3>
      <button class="navbar-toggler"
@@ -44,7 +44,7 @@
      <ul class="navbar-nav">
        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
 
-       <li class="nav-item"><a href="#" class="nav-link">Explore</a></li>
+       <li class="nav-item"><a href="/pages/adventures/" class="nav-link">Explore</a></li>
      </ul>
      </div>
 
@@ -56,41 +56,123 @@
   <!-- 1. Use appropriate css classes on the hero image container element. -->
   <!-- 2. Add child elements as required. -->
 
-   <div class="hero-image d-flex justify-content-center flex-column">
-         <div class="heading text-white">Welcome to Qtrip</div>
-         <div class="hero-subheading text-white">Explore the world with fantastic places to venture around</div>
-         <div class="hero-input">
-           <input type="text" class="form-control" placeholder="Search a city">
-          </div>
-
+   <div class="hero-image d-flex justify-content-center flex-column align-items-center text-white text-center">
+         <div class="container">
+         <h1>Welcome to Qtrip</h1>
+         <p class="hero-subheading">
+         Explore the world with fantastic places to venture around
+         </p>
+         
+           <input class="hero-input" placeholder="Search a city">
+          
+       </div>
       </div>
   
 
 
-  <div class="container">
+  <div class="container mt-4">
     <!-- TODO: MODULE_LAYOUT -->
     <!-- 1. Create the grid like layout as required. -->
     <div class="row">
-      <div class="col-12 col-sm-6 col-lg-3 mt-3">Bengaluru</div>
-      <div class="col-12 col-sm-6 col-lg-3 mt-3" >Kolkata</div>
-      <div class="col-12 col-sm-6 col-lg-3 mt-3">Goa</div>
-      <div class="col-12 col-sm-6 col-lg-3 mt-3">Mumbai</div>
-      <div class="col-12 col-sm-6 col-lg-3 mt-3">Singapore</div>
-      <div class="col-12 col-sm-6 col-lg-3 mt-3">Dubai</div>
-      <div class="col-12 col-sm-6 col-lg-3 mt-3">Malaysia</div>
-      <div class="col-12 col-sm-6 col-lg-3 mt-3">Paris</div>
-      
+      <div class="col-12 col-sm-6 col-lg-3 mb-3">
+        <a href="pages/adventures/">
+        <div class="tile">
+          <img src="assets/bengaluru.jpg">
+          <div class="tile-text text-white text-center">
+            <h3>Bengaluru</h3>
+            <p>100+ Places</p>
+          </div>
+          
+         
+        </div>
+        </a>
+
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-3">
+        <div class="tile">
+          <img src="assets/kolkata.jpg">
+          <div class="tile-text text-white text-center">
+            <h3>kolkata</h3>
+            <p>52+ Places</p>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-3">
+        <div class="tile">
+          <img src="assets/goa.jpg">
+          <div class="tile-text text-white text-center">
+            <h3>goa</h3>
+            <p>160+ Places</p>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-3">
+        <div class="tile">
+          <img src="assets/mumbai.jpg">
+          <div class="tile-text text-white text-center">
+            <h3>mumbai</h3>
+            <p>121+ Places</p>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-3">
+        <div class="tile">
+          <img src="assets/singapore.jpg">
+          <div class="tile-text text-white text-center">
+            <h3>singapore</h3>
+            <p>89+ Places</p>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-3">
+        <div class="tile">
+          <img src="assets/dubai.jpg">
+          <div class="tile-text text-white text-center">
+            <h3>Dubai</h3>
+            <p>74+ Places</p>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-3">
+        <div class="tile">
+          <img src="assets/malaysia.jpg">
+          <div class="tile-text text-white text-center">
+            <h3>Malaysia</h3>
+            <p>172+ Places</p>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-3">
+        <div class="tile">
+          <img src="assets/paris.jpg">
+          <div class="tile-text text-white text-center">
+            <h3>Paris</h3>
+            <p>150+ Places</p>
+          </div>
+         
+        </div>
+      </div>
+
+
+          
+
+
     </div>
+
+      
      
       
-    
-
-    
   </div>
 
   <footer>
     <div class="container">© QTrip 2020</div>
-  </footer>
+  </footer> 
 
   <!-- TODO: MODULE_LAYOUT -->
   <!-- Add scripts needed for bootstrap to work -->
