@@ -16,7 +16,7 @@ input:focus {
   outline: none;
 }
 a {
-  color: inherit !important;
+
   text-decoration: none !important;
 }
 footer {
@@ -169,25 +169,36 @@ height:100%;
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
 
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 16px;
 }
 
 .adventure-card-image {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  height:100%;
+  width:100%;
+  
+  
 }
 .adventure-card-image:hover {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  filter:brightness(50%);
 }
 .experience-content ul li {
   margin-left: 16px;
   padding: 0;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   /* For desktops phones: */
   #reservation {
     width: 400px;
     position: fixed;
   }
+ 
 }
+
+
