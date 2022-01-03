@@ -40,8 +40,8 @@ footer {
 
 .content {
   padding: 20px 0px;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
+   /*display: flex;
+   flex-wrap: wrap;*/
 }
 
 /* ================================== */
@@ -136,18 +136,30 @@ height:100%;
 /* Adventures grid page CSS */
 /* ================================== */
 
+
 .adventure-card {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+
+  height:20rem;
+
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+
+  height:14rem;
+  width:100%;
+  object-fit:cover;
+  transition: 0.2s all;
 }
 .adventure-card img:hover {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  filter:brightness(50%);
 }
+
+
 
 /* ================================== */
 /* Adventure details page CSS */
