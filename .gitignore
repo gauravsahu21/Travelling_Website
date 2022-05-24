@@ -24,3 +24,5 @@ build/*
 
 script.js
 assets/
+# Local Netlify folder
+.netlify
